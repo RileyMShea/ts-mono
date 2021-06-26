@@ -1,5 +1,5 @@
 {
-  "name": "@nighttrax/webpack-example",
+  "name": "@packages/webpack-example",
   "description": "Example of using webpack in a TS monorepo",
   "private": true,
   "version": "1.0.0",
@@ -8,7 +8,7 @@
     "test": "yarn run build"
   },
   "dependencies": {
-    "@nighttrax/bar": "*"
+    "@packages/bar": "*"
   },
   "devDependencies": {
     "webpack": "~4.43.0",

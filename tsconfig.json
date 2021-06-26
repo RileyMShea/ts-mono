@@ -4,7 +4,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@nighttrax/*": ["packages/*/src"]
+      "@packages/*": ["packages/*/src"]
     }
   }
 }

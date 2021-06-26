@@ -9,7 +9,7 @@ module.exports = {
       "module-resolver",
       {
         alias: {
-          "^@nighttrax/(.+)": "../../packages/\\1/src",
+          "^@packages/(.+)": "../../packages/\\1/src",
         },
       },
     ],

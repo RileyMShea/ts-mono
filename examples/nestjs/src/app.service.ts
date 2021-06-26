@@ -1,5 +1,5 @@
 import { Injectable } from "@nestjs/common";
-import { meaningOfLife } from "@nighttrax/foo";
+import { meaningOfLife } from "@packages/foo";
 
 @Injectable()
 export class AppService {

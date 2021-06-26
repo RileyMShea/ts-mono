@@ -54,8 +54,8 @@ yarn install
 
 See the following blog posts:
 
-- [How to set up a TypeScript monorepo and make Go to definition work](https://medium.com/@NiGhTTraX/how-to-set-up-a-typescript-monorepo-with-lerna-c6acda7d4559)
-- [Making TypeScript monorepos play nice with other tools](https://medium.com/@NiGhTTraX/making-typescript-monorepos-play-nice-with-other-tools-a8d197fdc680)
+- [How to set up a TypeScript monorepo and make Go to definition work](https://medium.com/@packages/how-to-set-up-a-typescript-monorepo-with-lerna-c6acda7d4559)
+- [Making TypeScript monorepos play nice with other tools](https://medium.com/@packages/making-typescript-monorepos-play-nice-with-other-tools-a8d197fdc680)
 
 If you're looking for the project references solution checkout the [`project-references`](https://github.com/NiGhTTraX/lerna-ts/tree/project-references) branch.
 
@@ -93,7 +93,7 @@ module.exports = {
       "module-resolver",
       {
         alias: {
-          "^@nighttrax/(.+)": "../\\1/src",
+          "^@packages/(.+)": "../\\1/src",
         },
       },
     ],
@@ -123,7 +123,7 @@ See the full example [here](examples/webpack).
 
 If you use `Babel` then see [this example](examples/jest-babel) from the [Babel](#babel) section above.
 
-If you use [ts-jest](https://github.com/kulshekhar/ts-jest) then you can use its `pathsToModuleNameMapper` helper: 
+If you use [ts-jest](https://github.com/kulshekhar/ts-jest) then you can use its `pathsToModuleNameMapper` helper:
 
 ```js
 const { pathsToModuleNameMapper } = require("ts-jest/utils");

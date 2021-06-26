@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { meaningOfLife } from "@nighttrax/foo";
-import { Button } from "@nighttrax/components";
+import { meaningOfLife } from "@packages/foo";
+import { Button } from "@packages/components";
 
 ReactDOM.render(
   <React.StrictMode>

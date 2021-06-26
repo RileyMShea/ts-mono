@@ -1,5 +1,5 @@
 {
-  "name": "@nighttrax/rollup-example",
+  "name": "@packages/rollup-example",
   "private": true,
   "version": "1.0.0",
   "main": "dist/index.js",
@@ -9,7 +9,7 @@
     "test": "yarn run build"
   },
   "dependencies": {
-    "@nighttrax/foo": "*"
+    "@packages/foo": "*"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "~6.0.0",

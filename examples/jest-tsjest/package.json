@@ -1,5 +1,5 @@
 {
-  "name": "@nighttrax/jest-example",
+  "name": "@packages/jest-example",
   "description": "Example of using jest with a TS monorepo",
   "private": true,
   "version": "1.0.0",
@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@nighttrax/foo": "*"
+    "@packages/foo": "*"
   },
   "devDependencies": {
     "@types/jest": "~26.0.4",

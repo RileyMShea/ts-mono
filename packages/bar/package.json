@@ -1,5 +1,5 @@
 {
-  "name": "@nighttrax/bar",
+  "name": "@packages/bar",
   "version": "1.0.0",
   "main": "dist/index",
   "types": "dist/index",
@@ -14,7 +14,7 @@
     "test": "yarn run build"
   },
   "dependencies": {
-    "@nighttrax/foo": "^1.0.0"
+    "@packages/foo": "^1.0.0"
   },
   "devDependencies": {
     "rimraf": "~3.0.2",
