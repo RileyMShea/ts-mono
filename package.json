@@ -19,7 +19,7 @@
         "@nighttrax/eslint-config-tsx": "~8.0.0",
         "doctoc": "~2.2.0",
         "eslint": "~8.31.0",
-        "eslint-plugin-import": "~2.26.0",
+        "eslint-plugin-import": "~2.27.0",
         "lerna": "~6.4.0",
         "react": "~17.0.0",
         "typescript": "~4.7.0"
