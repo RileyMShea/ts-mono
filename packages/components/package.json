@@ -17,7 +17,7 @@
     "@packages/foo": "*"
   },
   "devDependencies": {
-    "@types/react": "~18.0.0",
+    "@types/react": "~18.2.0",
     "react": "~17.0.0",
     "react-dom": "~17.0.0"
   }
