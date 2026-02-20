@@ -3506,12 +3506,13 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
-anchor-markdown-header@^0.5.7:
-  version "0.5.7"
-  resolved "https://registry.yarnpkg.com/anchor-markdown-header/-/anchor-markdown-header-0.5.7.tgz#045063d76e6a1f9cd327a57a0126aa0fdec371a7"
-  integrity sha1-BFBj125qH5zTJ6V6ASaqD97Dcac=
+anchor-markdown-header@^0.8.2:
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/anchor-markdown-header/-/anchor-markdown-header-0.8.2.tgz#180f4dab619a35f43f04edc6f5ee75b2b14e1ed0"
+  integrity sha512-ix0Hx6ARkHOsQRmt1++ZmjURq4Pr5MGXQJjh0lQ/l5jTpTURn4aqhbZ+AJMpZ/Sd3JiyNwi7KaeiF64OsMGCPg==
   dependencies:
-    emoji-regex "~6.1.0"
+    emoji-regex "~10.6.0"
+    remove-markdown "^0.6.2"
 
 anser@1.4.9:
   version "1.4.9"
@@ -6322,13 +6323,13 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
-doctoc@~2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/doctoc/-/doctoc-2.2.0.tgz#27f23eb75d109d29722d449efbcde3854cb0eabf"
-  integrity sha512-PtiyaS+S3kcMbpx6x2V0S+PeDKisxmjEFnZsuYkkj4Lh3ObozJuuYh9dM4+sX02Ouuty8RF2LOCnIbpu/hWy/A==
+doctoc@~2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/doctoc/-/doctoc-2.3.0.tgz#55f1d12e9db856de2059c9259b423b82e92385db"
+  integrity sha512-duuDNVnRHE5mFGYlI+oDf1vguML8PIhKnbUCs7iKPHIEdzYhkCldk6MQeX3ZeXQStRtZxGspSHImtgOMQPIS4A==
   dependencies:
     "@textlint/markdown-to-ast" "^12.1.1"
-    anchor-markdown-header "^0.5.7"
+    anchor-markdown-header "^0.8.2"
     htmlparser2 "^7.2.0"
     minimist "^1.2.6"
     underscore "^1.13.2"
@@ -6563,10 +6564,10 @@ emoji-regex@^9.0.0:
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-9.2.2.tgz#840c8803b0d8047f4ff0cf963176b32d4ef3ed72"
   integrity sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==
 
-emoji-regex@~6.1.0:
-  version "6.1.3"
-  resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-6.1.3.tgz#ec79a3969b02d2ecf2b72254279bf99bc7a83932"
-  integrity sha1-7HmjlpsC0uzytyJUJ5v5m8eoOTI=
+emoji-regex@~10.6.0:
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-10.6.0.tgz#bf3d6e8f7f8fd22a65d9703475bc0147357a6b0d"
+  integrity sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==
 
 emojis-list@^2.0.0:
   version "2.1.0"
@@ -15131,6 +15132,11 @@ remark-parse@^9.0.0:
   integrity sha512-geKatMwSzEXKHuzBNU1z676sGcDcFoChMK38TgdHJNAYfFtsfHDQG7MoJAjs6sgYMqyLduCYWDIWZIxiPeafEw==
   dependencies:
     mdast-util-from-markdown "^0.8.0"
+
+remove-markdown@^0.6.2:
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/remove-markdown/-/remove-markdown-0.6.3.tgz#039d4a08d21410a0fe7d13bf8ccf06c2f4c46aaa"
+  integrity sha512-Qvp2p0Q1irE7AaJO7QemJe04HdObHylJrG+q4hszvPlYp7q4EvfINpEIaIEFdB+3XTDp1h6fiyT60ae00gmRow==
 
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
