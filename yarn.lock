@@ -2498,17 +2498,17 @@
     "@svgr/plugin-svgo" "^5.5.0"
     loader-utils "^2.0.0"
 
-"@textlint/ast-node-types@15.5.2":
-  version "15.5.2"
-  resolved "https://registry.yarnpkg.com/@textlint/ast-node-types/-/ast-node-types-15.5.2.tgz#f5a2dd9f85b17c06e111b5e0dde62086b6970009"
-  integrity sha512-fCaOxoup5LIyBEo7R1oYWE7V4bSX0KQeHh66twon9e9usaLE3ijgF8QjYsR6joCssdeCHVd0wHm7ppsEyTr6vg==
+"@textlint/ast-node-types@15.7.1":
+  version "15.7.1"
+  resolved "https://registry.yarnpkg.com/@textlint/ast-node-types/-/ast-node-types-15.7.1.tgz#20f3f9111d735be70831be61ccb3e8d4420a8c71"
+  integrity sha512-Wii5UgUKFEh9Uv6wbq1zr4/Kf+dtjiUuzPrrXzKp8H+ifkvKNzi23V4Nz+6wVyHQn5T28AFuc8VH8OtzvGYecA==
 
-"@textlint/markdown-to-ast@^15.5.2":
-  version "15.5.2"
-  resolved "https://registry.yarnpkg.com/@textlint/markdown-to-ast/-/markdown-to-ast-15.5.2.tgz#7c7a50c528534666cb3affa397b1d4b72f9a2950"
-  integrity sha512-eLEeIb7jcyWiG1jahr3pl3z8dEYEgLPdz7lBG3AP8aB4m8Sv0SdL0mCD0tfR5hNp8FrOEXldqh1g2PMuiXlN3w==
+"@textlint/markdown-to-ast@^15.6.0":
+  version "15.7.1"
+  resolved "https://registry.yarnpkg.com/@textlint/markdown-to-ast/-/markdown-to-ast-15.7.1.tgz#c35b024f4ebbc15051150ea30ea867ee14115af1"
+  integrity sha512-9DLSah7g6mYNHvO6pssLdFvFPAl3HHyEIm4RE5of/1QN9FXJXDgdOcVV3YpQmbYT/YntuIvOQiqOndCSPWTW2A==
   dependencies:
-    "@textlint/ast-node-types" "15.5.2"
+    "@textlint/ast-node-types" "15.7.1"
     debug "^4.4.3"
     mdast-util-gfm-autolink-literal "^0.1.3"
     neotraverse "^0.6.18"
@@ -3508,10 +3508,10 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
-anchor-markdown-header@^0.8.3:
-  version "0.8.3"
-  resolved "https://registry.yarnpkg.com/anchor-markdown-header/-/anchor-markdown-header-0.8.3.tgz#727c63fc77dfecaa4edf0d687513539a07774524"
-  integrity sha512-i2JealiBR1stamxKBE+LDebJ5p/0GPffwEs05KaYqG+3oS25Semk4AE+YG5lUsCGZNYp70I9K57tfqsm8Pdwxg==
+anchor-markdown-header@^0.8.4:
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/anchor-markdown-header/-/anchor-markdown-header-0.8.4.tgz#a0d36f51161a42a375aec02619efa1174f530c99"
+  integrity sha512-20eMBMpts7k5rXAAj67geSqc/tsexHZOZJDWQD214YcDuNtyizDa7Q77sYa5rkao2FwsQP1WKRt2X6mphwmhbg==
   dependencies:
     emoji-regex "~10.6.0"
     remove-markdown "^0.6.2"
@@ -6337,17 +6337,16 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
-doctoc@~2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/doctoc/-/doctoc-2.4.0.tgz#4e546e89361294408415ab3455f166c5b380015c"
-  integrity sha512-KlJu2flOc5Eg7D0bMRIrl4zERs5dJ+2gqgB1Mgu/aTsBCSbkUzrMDpOt4IMa4T9pVI7V9frxx5psK5H2WFWv1Q==
+doctoc@~2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/doctoc/-/doctoc-2.5.0.tgz#79503c4a484e727547f5f566102cade1dde10a91"
+  integrity sha512-xWb2P8mQw9x+T9xPYToytRP0/bA68oexdsY0anMG72RdhZGTVPx6oHJfI57gbZe9LsOSfQUNNLwxSspdoTlJIQ==
   dependencies:
-    "@textlint/markdown-to-ast" "^15.5.2"
-    anchor-markdown-header "^0.8.3"
+    "@textlint/markdown-to-ast" "^15.6.0"
+    anchor-markdown-header "^0.8.4"
     htmlparser2 "^7.2.0"
     loglevel "^1.9.2"
     minimist "^1.2.6"
-    update-section "^0.3.3"
 
 doctrine@1.5.0:
   version "1.5.0"
@@ -17693,11 +17692,6 @@ upath@^1.1.1, upath@^1.1.2, upath@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/upath/-/upath-1.2.0.tgz#8f66dbcd55a883acdae4408af8b035a5044c1894"
   integrity sha512-aZwGpamFO61g3OlfT7OQCHqhGnW43ieH9WZeP7QxN/G/jS4jfqUkZxoryvJgVPEcrl5NL/ggHsSmLMHuH64Lhg==
-
-update-section@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/update-section/-/update-section-0.3.3.tgz#458f17820d37820dc60e20b86d94391b00123158"
-  integrity sha1-RY8Xgg03gg3GDiC4bZQ5GwASMVg=
 
 uri-js@^4.2.2:
   version "4.4.1"
